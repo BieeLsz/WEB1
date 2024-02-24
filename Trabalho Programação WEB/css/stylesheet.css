@@ -1,0 +1,124 @@
+body{
+    background-color: #F9F9F9;
+}
+.h1T{
+    border-left: solid 7px #3c5720;
+    padding: 0 20px;
+    font-size: 2.0rem;
+}
+.h1box{
+    padding: 50px 0 75px 0;
+}
+.bold{
+    font-weight: bold;
+}
+.btn-primary {
+    color: black;
+    background-color: #d3d3d3;
+    border-color: black;
+}
+.btn-primary:hover{
+    color: black;
+    background-color: darkgrey;
+    border-color: black;
+}
+.btn.btn-primary:active{
+    color: white;
+    background-color: grey;
+    border-color: black;
+}
+.fonte{
+    font-family: "Proxima Nova Rg",Arial,Helvetica,sans-serif;
+    font-size:xx-small;
+}
+.navbar-brand.fs-4 {
+    padding-left: 10px;
+    color: black;
+}
+.nav-pills .nav-link.active{
+    color: black;
+    background-color: #a9a9a9;
+}
+.nav-link{
+    color: black;
+}
+.asidefix1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#aside1{
+    float: right;
+    width: 100%;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 0.375em;
+    display:flex;
+}
+#aside2{
+    float: right;
+    width: 100%;
+    background-color: #00aeef;
+    border: 1px solid black;
+    border-radius: 0.375em;
+    display: flex;
+}
+#asideimg{
+    border: 1px solid black;
+    border-radius: 0.375em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#article {
+    float: left;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+.main{
+    min-height: calc(100vh - 6rem);
+    flex-direction: column;
+}
+#doe{
+    background-color:gold; 
+    color: red; 
+    border: 1px solid black; 
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    justify-items: center;
+}
+#doe:hover{
+    background-color: goldenrod;
+}
+#unicef{
+    background-color:white; 
+    color:black; 
+    border: 1px solid black; 
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+#unicef:hover{
+    background-color: whitesmoke;
+}
+#image{
+    height: auto;
+    width: 100%;
+    align-items: center;
+}
+.marketing .col-lg-4{
+    text-align: center;
+}
+.col-lg-3{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    
+}
